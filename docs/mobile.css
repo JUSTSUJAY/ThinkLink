@@ -1,0 +1,140 @@
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .mobile-nav-toggle {
+        display: block;
+        position: fixed;
+        top: 15px;
+        left: 15px;
+        z-index: 1001;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .mobile-nav-toggle span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 80%;
+        height: 100vh;
+        background-color: #fff;
+        transition: 0.4s;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 60px;
+    }
+
+    nav.active {
+        left: 0;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .logo {
+        margin-left: 50px;
+    }
+
+    .search-bar, .auth-buttons {
+        display: none;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        margin: 0;
+        padding: 0 1rem;
+    }
+
+    .hero-image {
+        max-width: 100%;
+    }
+
+
+    
+    .thinklink-members {
+        margin: 1rem;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    .member-type {
+        flex: 0 0 auto;
+        width: 80%;
+    }
+
+    #features {
+        margin: 0;
+        padding: 2rem 1rem;
+    }
+
+    #features .features-grid {
+        grid-template-columns: 1fr;
+        padding-right: 0;
+    }
+
+    #how-it-works {
+        margin: 0;
+        padding: 2rem 1rem;
+    }
+
+    .steps {
+        flex-direction: column;
+        padding-right: 0;
+    }
+
+    #success-stories {
+        padding: 2rem 1rem;
+    }
+
+    #success-stories h2 {
+        margin: 0 0 2rem 0;
+    }
+
+    .story-carousel {
+        margin: 0;
+        padding: 0 0 2rem;
+    }
+
+    #cta {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    #cta h2, #cta p {
+        margin: 0 0 1rem 0;
+        text-align: center;
+    }
+
+    #cta .cta-button {
+        margin-right: 0;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        margin: 0;
+        padding: 0 1rem;
+    }
+
+    .footer-section {
+        margin: 1rem 0;
+    }
+}

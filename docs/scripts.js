@@ -31,4 +31,24 @@ document.addEventListener('DOMContentLoaded', function () {
             console.log('Form submitted');
         });
     }
+
+    const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+    const nav = document.querySelector('nav');
+
+    if (mobileNavToggle) {
+        mobileNavToggle.addEventListener('click', function () {
+            nav.classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    }
+
+    // Close mobile nav when a link is clicked
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', function () {
+            nav.classList.remove('active');
+            if (mobileNavToggle) {
+                mobileNavToggle.classList.remove('active');
+            }
+        });
+    });
 });

@@ -4,12 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ThinkLink - Creators Community</title>
+    <title>ThinkLink</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css">
     <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <div class="mobile-nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
     <header>
         <nav>
             <div class="logo">ThinkLink</div>
@@ -24,7 +30,7 @@
                 <input type="text" placeholder="Search">
             </div>
             <div class="auth-buttons">
-                <button class="btn btn-primary">Register</button>
+                <button class="btn btn-header">Sign In</button>
             </div>
         </nav>
     </header>
@@ -33,19 +39,22 @@
         <section id="hero">
             <div class="hero-content" text-align="left">
                 <div class="hero-text" text-align="left">
-                    <h1>Innovate Together with Creators Community</h1>
-                    <p>Join a vibrant community of everyday innovators. Share your ideas, collaborate on solutions, and
-                        turn problems into opportunities. Connect with like-minded individuals and bring your vision to
-                        life, no matter your skill set.</p>
+                    <h1>Bring Your Ideas to Life with ThinkLink</h1>
+                    <p>
+                        Join a vibrant community of everyday innovators. Share your ideas, collaborate on solutions, and transform your moments of inspiration into real-world solutions with our industry-ready tools. 
+                    </p>
                     <div class="hero-buttons">
-                        <button class="btn btn-primary">Register with Google</button>
-                        <button class="btn btn-secondary">Register with Email</button>
+                        <button class="btn btn-primary">Share an Idea</button>
+                        <button class="btn btn-secondary">Work on a Project</button>
                     </div>
                 </div>
                 <div class="hero-image">
                     <img src="../assets/final_home.png" height="80%" width="80%" alt="ThinkLink Community">
                 </div>
             </div>
+        </section>
+
+        <section id="thinklink-users">
             <h2>Who's on ThinkLink?</h2>
             <div class="thinklink-members">
                 <div class="member-type">
@@ -211,6 +220,23 @@
                 </ul>
             </div>
             <div class="footer-section">
+                <h4>Documentation</h4>
+                <ul>
+                    <li><a href="#how-it-works">Idea Submision</a></li>
+                    <li><a href="#features">Collaboration</a></li>
+                    <li><a href="#success-stories">Tools</a></li>
+                    <li><a href="#contact">Competition</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#how-it-works">Our Team</a></li>
+                    <li><a href="#how-it-works">Contact Us</a></li>
+                    <li><a href="#how-it-works">Terms and Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
                 <h4>Connect With Us</h4>
                 <div class="social-icons">
                     <ul>
@@ -227,7 +253,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="scripts.js"></script>
 </body>
 
 </html>

@@ -117,7 +117,15 @@ nav {
     transition: background-color 0.3s ease;
 }
 
+.btn-header {
+    padding: 0.5rem 1rem;
+    background-color: #121e26;
+    color: #fff;
+}
+
 .btn-primary {
+    font-size:1rem;
+    padding: 1rem 1rem;
     background-color: #121e26;
     color: #fff;
 }
@@ -127,6 +135,7 @@ nav {
 }
 
 .btn-secondary {
+    font-size:1rem;
     background-color: #ecf0f1;
     border: 1px solid #0d0c0c;
     color: #333;
@@ -145,7 +154,7 @@ nav {
 #hero {
     background-color: #e6e6ea;
     text-align: center;
-    padding: 8rem 2rem 0rem;
+    padding: 8rem 2em 2rem;
 }
 
 #hero h1 {
@@ -181,13 +190,29 @@ nav {
     height: auto;
 }
 
+
+
+
 /* ThinkLink Members */
+#thinklink-users {
+    margin:0px 0 0rem 0;
+    background-color: #e6e6ea;
+    text-align: center;
+    padding: 0rem 2rem 1rem;
+}
+
+#thinklink-users h2 {
+    padding: 0rem 0rem 0rem;
+    text-align: left;
+    margin: 0 0 1rem 11rem;
+}
+
 .thinklink-members {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin: 1rem 8rem 10rem 9.5rem;
+    margin: 1rem 9rem 2rem 10rem;
 }
 
 .member-type {
@@ -214,18 +239,19 @@ nav {
 
 .member-info h3 {
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
 
 .member-info p {
-    font-size: 0.7rem;
+    text-align: left;
+    font-size: 1.2rem;
     color: #666;
 }
 
 /* Features Section */
 #features {
-    margin: -10rem 0 0 11rem;
+    margin: 0rem 0 0 11rem;
     background-color: #ffffff;
     padding: 2rem 2rem;
 }
@@ -275,7 +301,7 @@ nav {
 
 /* How It Works Section */
 #how-it-works {
-    margin: -15rem 0 0 11rem;
+    margin: -10rem 0 0 11rem;
     background-color: #ffffff;
     padding: 4rem 2rem;
     margin: 0 0 0 11rem;
@@ -283,7 +309,7 @@ nav {
 
 #how-it-works h2 {
     text-align: left;
-    margin-bottom: 2rem;
+    margin: -4rem 0 2rem 0rem;
 }
 
 .steps {
@@ -370,7 +396,7 @@ nav {
 }
 
 #cta .cta-button {
-    margin-right: 22rem;
+    margin-right: 12rem;
     /* Adjusts the right margin to align with the text's left margin */
 }
 
@@ -385,6 +411,7 @@ footer {
 .footer-content {
     display: flex;
     justify-content: space-between;
+    gap: 5rem;
     max-width: 1200px;
     margin: 0 0rem 2rem 11rem;
     padding: 0 2rem;
@@ -392,7 +419,7 @@ footer {
 
 .footer-section {
     flex: 1;
-    margin: 0 1rem;
+    margin: 0 0rem;
 }
 
 .footer-section h4 {
